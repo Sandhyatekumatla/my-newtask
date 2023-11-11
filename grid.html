@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+.grid-container{
+display: grid;
+gap: 10px;
+background-color: rgb(199, 222, 108);
+padding:10px;
+text-align: center;
+
+}
+.grid-container div{
+background-color: rgb(92, 199, 68);
+color:rgba(243, 24, 24, 0.804);
+font-size: 20px;
+}
+h2{
+text-align: center;
+color: rgb(12, 12, 253);
+}
+h1{
+    text-align: center;
+    color: rgb(234, 18, 61);
+}
+.photos{
+    display: grid;
+    background-color: burlywood;
+    row-gap: 10px;
+    column-gap: 20px;
+    align-items: center;
+    justify-items: center;
+grid-template-rows:200px 200px 200px 200px 200px 200px;
+}
+.item1:hover{
+    color: greenyellow;
+}
+.item2:hover{
+    color:blueviolet;
+}
+.item3:hover{
+    color: rgb(217, 128, 4);
+}
+.item4:hover{
+    color: rgb(72, 0, 255);
+}
+.item5:hover{
+    color: rgb(130, 45, 14);
+}
+.photos:hover{
+    color: rgb(96, 134, 250);
+    background-color: blue;
+}
+        </style>
+    </head>
+    <body>
+ <h2><u>GRID TEMPLATE</u></h2>
+<div class="grid-container">
+<div class="item1">Header</div>
+<div class="item2">Menu</div>
+<div class="item3">Main</div>
+<div class="item4">Right</div>
+<div class="item5">footer</div>
+ </div>
+<br>
+<hr>
+<br>
+<h1><u>IMAGES</u></h1>
+ <div class="photos">
+  <img class="photo" src="./images/hyd1.jpg" width="200" height="150">
+  <img src="./images/hyd2.jpg" width="200" height="150">
+  <img src="./images/hyd3.jpg" width="200" height="150">
+  <img src="./images/hyd4.jpg" width="200" height="150">
+  <img src="./images/hyd5.jpg" width="200" height="150">
+  <img src="./images/hyd6.jpg" width="200" height="150">
+ </div>
+
+ </body>
+</html>
