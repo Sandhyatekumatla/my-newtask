@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>
+grid template
+    </title>
+    <style>
+        .item1{
+            grid-area: myArea;
+        }
+        .grid-container{
+display:grid;
+grid-template-areas: 'myArea myArea . . .';
+grid-gap:10px;
+background-color: rgb(69, 175, 250);
+padding: 10px;
+        }
+        .grid-container>div{
+            background-color:rgb(240, 41, 121);
+        padding: 10px;
+        text-align: center;
+        color: rgb(238, 224, 227);
+        font-size: 20px;
+        }
+        .item1:hover{
+            color: rgb(8, 244, 177);
+            background-color: bisque;
+        }
+        .item2:hover{
+            color: black;
+            background-color: blueviolet;
+        }
+        .item3:hover{
+            color: cornflowerblue;
+            background-color: brown;
+        }
+        .item4:hover{
+            color: rgb(132, 237, 100);
+            background-color:purple;
+        }
+        .item5:hover{
+            color: rgba(6, 14, 29, 0.194);
+            background-color: rgb(179, 179, 72);
+        }
+        .item6:hover{
+            color: rgb(8, 39, 96);
+            background-color: rgb(193, 12, 102);
+        }
+        .item7:hover{
+            color: rgb(85, 2, 2);
+            background-color: rgb(36, 113, 29);
+        }
+        .item8:hover{
+            color: rgb(2, 10, 24);
+            background-color: rgb(22, 111, 131);
+        }
+        .item9:hover{
+            color: rgb(46, 2, 43);
+            background-color: rgb(75, 165, 42);
+        }
+        .item10:hover{
+            color: rgba(253, 9, 204, 0.918);
+            background-color: rgb(176, 156, 156);
+        }
+    </style>
+    </head>
+    <body>
+       <div class="grid-container">
+<div class="item1">One</div>
+<div class="item2">Two</div>
+<div class="item3">Three</div>
+<div  class="item4">Four</div>
+<div class="item5">Five</div>
+<div class="item6">Six</div>
+<div class="item7">Seven</div>
+<div class="item8">Eight</div>
+<div class="item9">Nine</div>
+<div class="item10">Ten</div>
+       </div> 
+    </body>
+</html>
